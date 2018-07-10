@@ -1903,4 +1903,6 @@ Text Label 3450 3600 2    60   ~ 0
 CHS_GND
 Text Label 6950 4650 0    60   ~ 0
 FET_PWR
+Text Label 3350 6350 0    60   ~ 0
+SENS_PWR
 $EndSCHEMATC

@@ -253,25 +253,10 @@ F 3 "" H 8350 4600 60  0001 C CNN
 	1    8350 4600
 	0    1    1    0   
 $EndComp
-$Comp
-L STELVIO-2P-508 J1
-U 1 1 57FD0C19
-P 5700 1650
-F 0 "J1" H 5550 1800 45  0000 L BNN
-F 1 "STELVIO-2P-508" H 5700 1650 45  0001 L BNN
-F 2 "plan44:STELVIO-2P-508-S" H 5730 1800 20  0001 C CNN
-F 3 "" H 5700 1650 60  0001 C CNN
-F 4 "distrelec.ch" H 5700 1650 60  0001 C CNN "Field4"
-F 5 "300-43-014" H 5700 1650 60  0001 C CNN "Field5"
-	1    5700 1650
-	0    -1   -1   0   
-$EndComp
 Text Label 3050 2650 0    60   ~ 0
 GND
 Text Label 3050 2550 0    60   ~ 0
 +5V
-Wire Wire Line
-	3850 2250 3850 2950
 Wire Wire Line
 	8050 2200 8050 2950
 Connection ~ 8050 2550
@@ -288,9 +273,8 @@ Connection ~ 5250 2550
 Wire Wire Line
 	4850 2200 4850 2950
 Connection ~ 4850 2550
-Connection ~ 3850 2550
 Wire Wire Line
-	4150 2650 4150 2950
+	4150 2250 4150 2950
 Wire Wire Line
 	8350 2200 8350 2950
 Wire Wire Line
@@ -427,7 +411,6 @@ Wire Wire Line
 	8250 4600 8250 4800
 Connection ~ 3400 2550
 Connection ~ 4150 2650
-Connection ~ 4150 2550
 Wire Wire Line
 	2850 2650 8350 2650
 Wire Wire Line
@@ -482,8 +465,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 3050 3300 2850
 Connection ~ 3300 2850
-Wire Wire Line
-	5800 1950 5800 3400
 Connection ~ 5800 2550
 Wire Wire Line
 	5700 1950 5700 3400
@@ -551,8 +532,6 @@ F 3 "" H 4000 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4150 2250 4150 2550
-Wire Wire Line
 	4350 2050 4350 2750
 Wire Wire Line
 	4350 2750 3950 2750
@@ -596,4 +575,58 @@ Connection ~ 8350 5100
 Wire Wire Line
 	5250 1950 5250 2950
 Connection ~ 5250 2200
+$Comp
+L STELVIO-4P-508 J1
+U 1 1 5B44F8A3
+P 5700 1650
+F 0 "J1" H 5550 1800 45  0000 L BNN
+F 1 "STELVIO-4P-508" H 5700 1650 45  0001 L BNN
+F 2 "plan44:STELVIO-4P-508-S" H 5730 1800 20  0001 C CNN
+F 3 "" H 5700 1650 60  0001 C CNN
+F 4 "distrelec.ch" H 5700 1650 60  0001 C CNN "Field4"
+F 5 "300-43-016" H 5700 1650 60  0001 C CNN "Field5"
+	1    5700 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2050 5800 2050
+Wire Wire Line
+	5800 2050 5800 1950
+Connection ~ 5700 2050
+Wire Wire Line
+	5800 2150 5800 3400
+Wire Wire Line
+	5800 2150 6000 2150
+Wire Wire Line
+	6000 2150 6000 1950
+Wire Wire Line
+	5900 1950 5900 2150
+Connection ~ 5900 2150
+Wire Wire Line
+	3850 2250 3850 2950
+Connection ~ 3850 2550
+$Comp
+L CONN_01X01 MH1
+U 1 1 5B4507E4
+P 9350 3600
+F 0 "MH1" H 9350 3700 50  0000 C CNN
+F 1 "CONN_01X01" V 9450 3600 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 9350 3600 50  0001 C CNN
+F 3 "" H 9350 3600 50  0000 C CNN
+	1    9350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 MH2
+U 1 1 5B4507EB
+P 9350 3900
+F 0 "MH2" H 9350 4000 50  0000 C CNN
+F 1 "CONN_01X01" V 9450 3900 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 9350 3900 50  0001 C CNN
+F 3 "" H 9350 3900 50  0000 C CNN
+	1    9350 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9150 3600
+NoConn ~ 9150 3900
 $EndSCHEMATC

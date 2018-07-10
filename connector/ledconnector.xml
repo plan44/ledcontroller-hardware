@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/luz/Documents/plan44/Projekte/LETH/ledcontroller_hw/connector/ledconnector.sch</source>
+    <date>2018 July 10, Tuesday 22:38:00</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ledconnector board for LETH</title>
+        <company>plan44.ch/luz</company>
+        <rev>v1</rev>
+        <date>2018-07-10</date>
+        <source>ledconnector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN1">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF69D</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6A4</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6AB</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6B2</tstamp>
+    </comp>
+    <comp ref="CN5">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6B9</tstamp>
+    </comp>
+    <comp ref="CN6">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6C0</tstamp>
+    </comp>
+    <comp ref="CN7">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6C7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6EF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6F6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF6FD</tstamp>
+    </comp>
+    <comp ref="CN11">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCEEA2</tstamp>
+    </comp>
+    <comp ref="CN12">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCEF66</tstamp>
+    </comp>
+    <comp ref="CN13">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCEFFE</tstamp>
+    </comp>
+    <comp ref="CN14">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF004</tstamp>
+    </comp>
+    <comp ref="CN15">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF104</tstamp>
+    </comp>
+    <comp ref="CN16">
+      <value>WS2813-CONN-IN</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-IN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF10A</tstamp>
+    </comp>
+    <comp ref="CN17">
+      <value>WS2813-CONN-OUT</value>
+      <footprint>plan44:WS2813-CONN</footprint>
+      <libsource lib="plan44" part="WS2813-CONN-OUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FCF110</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>STELVIO-3P-508</value>
+      <footprint>plan44:STELVIO-3P-508-S</footprint>
+      <fields>
+        <field name="Field4">distrelec.ch</field>
+        <field name="Field5">300-43-015</field>
+      </fields>
+      <libsource lib="plan44" part="STELVIO-3P-508"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44D6DA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44D806</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44D850</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E02D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E10B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E2BA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E459</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X02</value>
+      <footprint>plan44:LETH-PowerPad</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E761</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X02</value>
+      <footprint>plan44:LETH-PowerPad</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44E99C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>STELVIO-4P-508</value>
+      <footprint>plan44:STELVIO-4P-508-S</footprint>
+      <fields>
+        <field name="Field4">distrelec.ch</field>
+        <field name="Field5">300-43-016</field>
+      </fields>
+      <libsource lib="plan44" part="STELVIO-4P-508"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44F8A3</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4507E4</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4507EB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="plan44" part="STELVIO-3P-508">
+      <footprints>
+        <fp>*STELVIO-3P-508*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STELVIO-3P-508</field>
+        <field name="Footprint">plan44:STELVIO-3P-508</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="plan44" part="STELVIO-4P-508">
+      <footprints>
+        <fp>*STELVIO-4P-508*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STELVIO-4P-508</field>
+        <field name="Footprint">plan44:STELVIO-4P-508</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="plan44" part="WS2813-CONN-IN">
+      <footprints>
+        <fp>*WS2813-CONN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">WS2813-CONN-IN</field>
+        <field name="Footprint">plan44-WS2813-CONN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="BiDi"/>
+        <pin num="2" name="DI" type="BiDi"/>
+        <pin num="3" name="BI" type="BiDi"/>
+        <pin num="4" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="plan44" part="WS2813-CONN-OUT">
+      <footprints>
+        <fp>*WS2813-CONN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">WS2813-CONN-OUT</field>
+        <field name="Footprint">plan44-WS2813-CONN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="BO" type="BiDi"/>
+        <pin num="3" name="DO" type="BiDi"/>
+        <pin num="4" name="+5V" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="plan44">
+      <uri>/Users/luz/Documents/plan44/OpenSourceWork-github-plan44/plan44-kicad/plan44.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(CN13-Pad2)">
+      <node ref="CN14" pin="3"/>
+      <node ref="CN13" pin="2"/>
+    </net>
+    <net code="2" name="Net-(CN15-Pad3)">
+      <node ref="CN15" pin="3"/>
+      <node ref="CN16" pin="2"/>
+    </net>
+    <net code="3" name="Net-(CN15-Pad2)">
+      <node ref="CN15" pin="2"/>
+      <node ref="CN16" pin="3"/>
+    </net>
+    <net code="4" name="Net-(CN17-Pad3)">
+      <node ref="CN17" pin="3"/>
+    </net>
+    <net code="5" name="Net-(CN17-Pad2)">
+      <node ref="CN17" pin="2"/>
+    </net>
+    <net code="6" name="Net-(CN1-Pad2)">
+      <node ref="CN1" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(CN1-Pad3)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="CN1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(CN11-Pad2)">
+      <node ref="CN12" pin="3"/>
+      <node ref="CN11" pin="2"/>
+    </net>
+    <net code="9" name="Net-(CN11-Pad3)">
+      <node ref="CN11" pin="3"/>
+      <node ref="CN12" pin="2"/>
+    </net>
+    <net code="10" name="Net-(CN13-Pad3)">
+      <node ref="CN13" pin="3"/>
+      <node ref="CN14" pin="2"/>
+    </net>
+    <net code="11" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(CN2-Pad2)">
+      <node ref="CN2" pin="2"/>
+      <node ref="CN3" pin="3"/>
+    </net>
+    <net code="14" name="Net-(CN2-Pad3)">
+      <node ref="CN3" pin="2"/>
+      <node ref="CN2" pin="3"/>
+    </net>
+    <net code="15" name="Net-(CN4-Pad2)">
+      <node ref="CN4" pin="2"/>
+      <node ref="CN5" pin="3"/>
+    </net>
+    <net code="16" name="Net-(CN4-Pad3)">
+      <node ref="CN5" pin="2"/>
+      <node ref="CN4" pin="3"/>
+    </net>
+    <net code="17" name="Net-(CN6-Pad2)">
+      <node ref="CN6" pin="2"/>
+      <node ref="CN7" pin="3"/>
+    </net>
+    <net code="18" name="Net-(CN6-Pad3)">
+      <node ref="CN6" pin="3"/>
+      <node ref="CN7" pin="2"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="CN13" pin="4"/>
+      <node ref="CN12" pin="1"/>
+      <node ref="CN11" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="CN14" pin="1"/>
+      <node ref="CN17" pin="4"/>
+      <node ref="CN16" pin="1"/>
+      <node ref="CN15" pin="4"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="CN7" pin="1"/>
+      <node ref="CN6" pin="4"/>
+      <node ref="CN5" pin="1"/>
+      <node ref="CN4" pin="4"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="CN2" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="CN17" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="CN16" pin="4"/>
+      <node ref="CN15" pin="1"/>
+      <node ref="CN14" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="CN13" pin="1"/>
+      <node ref="CN12" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="CN11" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="CN7" pin="4"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="CN6" pin="1"/>
+      <node ref="CN5" pin="4"/>
+      <node ref="CN4" pin="1"/>
+      <node ref="CN3" pin="4"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="CN1" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -531,10 +531,6 @@ NoConn ~ 4750 2150
 NoConn ~ 4750 2250
 NoConn ~ 6250 4050
 NoConn ~ 6350 4050
-NoConn ~ 5150 4050
-NoConn ~ 5250 4050
-NoConn ~ 5350 4050
-NoConn ~ 5450 4050
 Text Label 7250 950  2    60   ~ 0
 USB-
 Text Label 7250 1050 2    60   ~ 0
@@ -1743,21 +1739,13 @@ Wire Wire Line
 Connection ~ 4000 3600
 Wire Wire Line
 	5750 4150 5750 4050
-Wire Wire Line
-	5850 4050 5850 4550
-Wire Wire Line
-	5950 4050 5950 4550
-Wire Wire Line
-	6050 4050 6050 4550
-Wire Wire Line
-	6150 4050 6150 4550
-Text Label 5850 4550 1    60   ~ 0
+Text Label 5150 4550 1    60   ~ 0
 SPI_CS1
-Text Label 5950 4550 1    60   ~ 0
+Text Label 5250 4550 1    60   ~ 0
 SPI_CLK
-Text Label 6050 4550 1    60   ~ 0
+Text Label 5450 4550 1    60   ~ 0
 SPI_MISO
-Text Label 6150 4550 1    60   ~ 0
+Text Label 5350 4550 1    60   ~ 0
 SPI_MOSI
 Wire Wire Line
 	1950 6600 1350 6600
@@ -1905,4 +1893,16 @@ Text Label 6950 4650 0    60   ~ 0
 FET_PWR
 Text Label 3350 6350 0    60   ~ 0
 SENS_PWR
+Wire Wire Line
+	5150 4050 5150 4550
+Wire Wire Line
+	5250 4050 5250 4550
+Wire Wire Line
+	5350 4050 5350 4550
+Wire Wire Line
+	5450 4050 5450 4550
+NoConn ~ 5850 4050
+NoConn ~ 5950 4050
+NoConn ~ 6050 4050
+NoConn ~ 6150 4050
 $EndSCHEMATC

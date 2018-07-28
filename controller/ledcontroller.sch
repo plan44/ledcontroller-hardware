@@ -1292,8 +1292,8 @@ F 3 "" H 9100 6050 50  0000 C CNN
 	1    9100 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 10350 4950 0    60   ~ 0
-Alternatively:\nMCP1826S\nwith input C\n >=4.7uF\n (more allowed)\nand output C\n >=1uF\n (more allowed)
+Text Notes 10200 5000 0    60   ~ 0
+Alternatively:\nLM3940IT-3.3/NOPB\nwith input C\n >=4.7uF\n (more allowed)\nand output C\n >=33uF\n(more allowed)\nESR 0.6-1Ohm (!!)
 Text Notes 8750 5050 0    60   ~ 0
 with R783.3:\nin C >=10uF\n100nF in C opt\nout Cs opt
 Connection ~ 10350 5450
